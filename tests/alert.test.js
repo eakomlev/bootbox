@@ -98,10 +98,10 @@ describe("bootbox.alert", function() {
       });
     });
 
-    describe("with three arguments", function() {
+    describe("with four arguments", function() {
       beforeEach(function() {
         this.create = function() {
-          bootbox.alert(1, 2, 3);
+          bootbox.alert(1, 2, 3, 4);
         };
       });
 
